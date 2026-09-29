@@ -12,7 +12,11 @@
     <header class="barra-superior">
         <div class="contenedor barra-superior__contenido">
             <a href="{{ route('home') }}" class="marca">
-                <span class="marca__icono">&#128218;</span>
+                <img
+                    src="{{ asset('images/escudo.jpg') }}"
+                    alt="Escudo del instituto"
+                    class="marca__logo"
+                >
                 <span class="marca__texto">
                     <strong>Biblioteca Virtual</strong>
                     <small>Gestión de libros y autores</small>

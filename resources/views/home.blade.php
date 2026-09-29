@@ -5,11 +5,23 @@
 @section('contenido')
 
     <section class="portada">
-        <h1>Biblioteca Virtual</h1>
-        <p>
-            Sistema de gestión de autores, editores, traductores y libros.
-            Administra los registros, sus imágenes y las relaciones entre ellos.
-        </p>
+        <img
+            class="portada__fondo"
+            src="{{ asset('images/instituto.jpg') }}"
+            alt=""
+            aria-hidden="true"
+        >
+
+        <div class="portada__contenido">
+            <span class="portada__saludo">Bienvenidos</span>
+
+            <h1>Instituto de Educación Superior Tecnológico Público &laquo;CÉSAR AUGUSTO GUARDIA MAYORGA&raquo; de Coracora</h1>
+
+            <p>
+                Biblioteca Virtual: sistema de gestión de autores, editores, traductores y libros.
+                Administra los registros, sus imágenes y las relaciones entre ellos.
+            </p>
+        </div>
     </section>
 
     <section class="estadisticas">
